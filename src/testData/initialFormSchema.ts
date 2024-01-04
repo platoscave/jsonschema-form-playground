@@ -1,4 +1,4 @@
-export default {
+const initialFormSchema: any = {
 
   title: "Jsonschema Form Generator Demo",
 
@@ -289,3 +289,4 @@ export default {
   },
   required: ['string']
 }
+export default initialFormSchema

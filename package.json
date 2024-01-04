@@ -1,6 +1,6 @@
 {
   "name": "jsonschema-form-playground",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "private": true,
   "type": "module",
   "scripts": {
@@ -11,12 +11,15 @@
     "type-check": "vue-tsc --build --force"
   },
   "dependencies": {
-    "vue": "^3.3.11",
-    "vue3-jsonschema-form": "^0.1.0"
+    "@vueuse/core": "^10.7.1",
+    "element-plus": "^2.4.4",
+    "splitpanes": "^3.1.5",
+    "vue": "^3.3.11"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
     "@types/node": "^18.19.3",
+    "@types/splitpanes": "^2.2.6",
     "@vitejs/plugin-vue": "^4.5.2",
     "@vue/tsconfig": "^0.5.0",
     "npm-run-all2": "^6.1.1",

@@ -1,4 +1,4 @@
-export default {
+const initialEditPermitted: any = {
     properties: {
         string: true,
         object: {
@@ -23,3 +23,4 @@ export default {
         },
     }
 }
+export default initialEditPermitted

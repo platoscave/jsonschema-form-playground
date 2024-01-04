@@ -1,4 +1,4 @@
-export default [
+const initialFormSchema: any = [
     {
         key: 1,
         label: 'United States',
@@ -25,3 +25,4 @@ export default [
         iconSrc: "Layouts.svg"
     }
 ]
+export default initialFormSchema

@@ -1,4 +1,4 @@
-export default {
+const initialFormData: any = {
     string: "Hi",
     markdown: "# Markdown",
     "stringDate": "2024-01-01",
@@ -42,3 +42,4 @@ export default {
         }
     ]
 }
+export default initialFormData
